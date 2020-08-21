@@ -1,4 +1,4 @@
-class Bullet{
+class Bullets{
     constructor(x, y, width, height) {
         var options = {
            
@@ -12,7 +12,7 @@ class Bullet{
         this.width = width;
         this.height = height;
         Matter.World.add(world, this.body);
-        this.image = loadImage ("bullet.jpg");
+        this.image = loadImage("bulletimage.jpg");
       }
       display(){
         console.log(this.body);
