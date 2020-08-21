@@ -29,8 +29,8 @@ for(var i = 0; i<bulletArray.length; i ++) {
 }
 function keyPressed(){
   if(keyCode==32){
-     bullet1= new Bullets(player1.body.position.x,player1.body.position.y,50,50);
+    console.log("hi");
+    bullet1= new Bullets(player1.body.position.x,player1.body.position.y,50,50);
     bulletArray.push(bullet1);
-    
   }
 }
